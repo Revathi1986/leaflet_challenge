@@ -1,3 +1,5 @@
+// Most of this Code is Base Day Activity 10
+
 // Store our API endpoint inside queryUrl
 var queryUrl = "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_week.geojson";
 
@@ -101,7 +103,7 @@ function createMap(earthquakes) {
   };
 
   // Create our map, giving it the streetmap and earthquakes layers to display on load
-  var myMap = L.map("map", {
+  var myMap = L.map("mapid", {
     center: [
       37.09, -95.71
     ],
